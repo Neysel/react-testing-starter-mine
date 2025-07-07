@@ -1,4 +1,6 @@
-import { it, expect, describe } from 'vitest';
+// import { it, expect, describe } from 'vitest';
+// we have globals in vitest.config.ts
+
 import {render, screen} from '@testing-library/react';
 import Greet from '../../src/components/Greet';
 import '@testing-library/jest-dom/vitest';
